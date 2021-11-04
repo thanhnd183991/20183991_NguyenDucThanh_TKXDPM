@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="792.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="490.0" prefWidth="808.0">
+         <children>
+            <BorderPane prefHeight="487.0" prefWidth="792.0">
+               <top>
+                  <HBox alignment="CENTER_LEFT" prefHeight="77.0" prefWidth="792.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fitHeight="77.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/payment.png" />
+                           </image>
+                        </ImageView>
+                        <Label contentDisplay="CENTER" text="   Thanh toán" textFill="#3310b2">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
+                     </children>
+                  </HBox>
+               </top>
+               <bottom>
+                  <HBox alignment="CENTER" prefHeight="84.0" prefWidth="792.0">
+                     <children>
+                        <Button alignment="CENTER" mnemonicParsing="false" style="-fx-background-color: red;" text="Xác nhận thanh toán" textFill="WHITE" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </HBox>
+               </bottom>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label layoutX="28.0" layoutY="14.0" text="Phương thức thanh toán">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="63.0" layoutY="46.0" prefHeight="247.0" prefWidth="142.0">
+                           <children>
+                              <RadioButton mnemonicParsing="false" selected="true" text="CreditCard">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </RadioButton>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="361.0" layoutY="39.0" prefHeight="266.0" prefWidth="430.0" spacing="7.0">
+                           <children>
+                              <Label text="Card number:">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="30.0" prefWidth="386.0" text="Nguyễn Đức Thành 20183991" />
+                              <Label text="Card holder name:">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="30.0" prefWidth="386.0" text="Nguyễn Đức Thành 20183991" />
+                              <Label text="Expriration date:">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="30.0" prefWidth="386.0" text="Nguyễn Đức Thành 20183991" />
+                              <Label text="Card security code:">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="30.0" prefWidth="386.0" text="Nguyễn Đức Thành 20183991" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
