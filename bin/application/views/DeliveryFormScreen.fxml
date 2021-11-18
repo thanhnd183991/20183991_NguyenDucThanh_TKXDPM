@@ -11,8 +11,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <AnchorPane prefHeight="74.0" prefWidth="768.0" BorderPane.alignment="CENTER">
          <children>
@@ -32,31 +31,31 @@
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <GridPane layoutX="96.0" layoutY="14.0" prefHeight="342.0" prefWidth="617.0" vgap="10.0">
+            <GridPane layoutX="96.0" layoutY="14.0" prefHeight="381.0" prefWidth="623.0" vgap="10.0">
                <children>
                   <Label text="Họ và tên">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="16.0" />
                      </font>
                   </Label>
                   <Label text="Tỉnh/ Thành phố" GridPane.rowIndex="2">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="16.0" />
                      </font>
                   </Label>
                   <Label text="Điện thoại" GridPane.rowIndex="1">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="16.0" />
                      </font>
                   </Label>
                   <Label text="Địa chỉ" GridPane.rowIndex="3">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="16.0" />
                      </font>
                   </Label>
                   <Label text="Cách thức giao hàng" GridPane.rowIndex="4">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="16.0" />
                      </font>
                   </Label>
                   <TextField prefHeight="30.0" prefWidth="433.0" text="Nguyễn Đức Thành 20183991" GridPane.columnIndex="1" GridPane.columnSpan="4">
@@ -80,6 +79,74 @@
                         <Font size="14.0" />
                      </font>
                   </TextArea>
+                  <Label text="Giao hàng nhanh" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <RadioButton mnemonicParsing="false" prefHeight="17.0" prefWidth="169.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <Label text="Chi phí giao hàng" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <children>
+                        <Label layoutX="13.0" layoutY="3.0" text="Tổng">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="29.0" text="Phí chuyển">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="60.0" text="Tổng giá" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="6">
+                     <children>
+                        <Label layoutX="15.0" layoutY="2.0" text="200.000">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="105.0" layoutY="59.0" text="VND">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="105.0" layoutY="2.0" text="VND">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="19.0" layoutY="27.0" text="20.000">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="13.0" layoutY="59.0" text="220.000" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="105.0" layoutY="27.0" text="VND">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
                </children>
                <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="192.0" minWidth="10.0" prefWidth="192.0" />
@@ -92,11 +159,13 @@
                   <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="56.0" vgrow="SOMETIMES" />
                   <RowConstraints maxHeight="220.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
                   <RowConstraints maxHeight="271.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
-                  <RowConstraints maxHeight="271.0" minHeight="10.0" prefHeight="67.0" valignment="TOP" vgrow="SOMETIMES" />
-                  <RowConstraints maxHeight="271.0" minHeight="10.0" prefHeight="96.0" valignment="TOP" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="271.0" minHeight="10.0" prefHeight="53.0" valignment="TOP" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="271.0" minHeight="10.0" prefHeight="60.0" valignment="TOP" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="271.0" minHeight="10.0" prefHeight="33.0" valignment="TOP" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="271.0" prefHeight="71.0" valignment="TOP" vgrow="SOMETIMES" />
                </rowConstraints>
             </GridPane>
-            <Button layoutX="295.0" layoutY="373.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="235.0" style="-fx-background-color: red;" text="Xác nhận chuyển hàng" textFill="WHITE">
+            <Button layoutX="290.0" layoutY="412.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="235.0" style="-fx-background-color: red;" text="Xác nhận chuyển hàng" textFill="WHITE">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
